@@ -1,6 +1,6 @@
 # "This is made with a Node.js Tutorial - How to Build a Web Server"
 
-✅ [Check out the author YouTube Channel with all of my tutorials](https://www.youtube.com/DaveGrayTeachesCode).
+✅ [Check out the author YouTube Channel](https://www.youtube.com/DaveGrayTeachesCode).
 
 **Description:**
 
