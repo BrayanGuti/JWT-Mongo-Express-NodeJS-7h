@@ -63,3 +63,7 @@
 20250824	01:11:10	ccc7ea4b-fa26-45c8-9d10-27233e5945b0	SyntaxError: Expected ',' or '}' after property value in JSON at position 19 (line 3 column 5)
 20250824	01:11:14	ab9a3a93-6739-41c3-a21b-598adcb1f54b	ReferenceError: fs is not defined
 20250824	02:12:41	3040270a-bb3a-4b21-84aa-4b6630c8d8e6	TypeError: bycript.match is not a function
+20250824	15:00:59	88438220-cc4a-470d-b65b-1885bbd92917	ReferenceError: __dirname is not defined
+20250824	15:01:42	254e094c-c759-4649-af54-4e1727ebb922	ReferenceError: __dirname is not defined
+20250824	16:31:23	d23835e5-173a-44c6-9f95-7fdf318172ef	TypeError: Cannot destructure property 'user' of 'req.body' as it is undefined.
+20250824	17:48:06	47a3184d-8cf7-44f9-a5cc-d9eb2568db77	Error: Cannot set headers after they are sent to the client

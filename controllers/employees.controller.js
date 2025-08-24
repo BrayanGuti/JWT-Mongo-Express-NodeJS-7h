@@ -1,4 +1,4 @@
-import employees from "../model/employees.json" with { type: "json" };
+import employees from "../model/users.json" with { type: "json" };
 import fs from 'fs'
 
 const EMPLOYEES_FILE_PATH = "./model/employees.json";

@@ -8,7 +8,11 @@ import subdirRouter from "./routes/subdir.js";
 import rootRouter from "./routes/root.js";
 import employeesRouter from "./routes/api/employees.js";
 import registerRouter from "./routes/register.js";
+import verifyJWT from "./middleware/verifyJWT.js";
 import corsOption from "./config/corsOption.js";
+import cookieParser from "cookie-parser";
+import refreshRouter from "./routes/refresh.js";
+import logoutRouter from "./routes/logout.js";
 
 const app = express();
 const PORT = process.env.PORT || 3500;
@@ -24,13 +28,20 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use(express.json());
 
+// middleware for cookies
+app.use(cookieParser());
+
 app.use(express.static(path.join(__dirname, "/public")));
 app.use("/subdir", express.static(path.join(__dirname, "/public")));
 
 app.use("/", rootRouter);
 app.use("/register", registerRouter);
 app.use("/auth", authRouter);
+app.use("/logout", logoutRouter);
+app.use("/refresh", refreshRouter);
 app.use("/subdir", subdirRouter);
+
+app.use(verifyJWT);
 app.use("/employees", employeesRouter);
 
 app.use((req, res) => {

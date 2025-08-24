@@ -1,5 +1,13 @@
 import bycript from "bcrypt";
 import usersData from "../model/users.json" with { type: "json" };
+import jwt from "jsonwebtoken";
+import { promises } from "fs";
+import path from "path";
+import dotenv from "dotenv";
+
+const __dirname = path.dirname(new URL(import.meta.url).pathname);
+
+dotenv.config();
 
 const userDB = {
   users: usersData,
@@ -26,8 +34,45 @@ const handleLogin = async (req, res) => {
   const match = await bycript.compare(pwd, foundUser.password);
 
   if (match) {
-    res.status(200).json({
-      message: "Login successfully!",
+    const roles = Object.values(foundUser.roles);
+    const accessToken = jwt.sign(
+      {
+        UserInfo: {
+          username: foundUser.username,
+          roles: roles,
+        },
+      },
+      process.env.ACCESS_TOKEN_SECRET,
+      { expiresIn: "30s" }
+    );
+
+    const refreshToken = jwt.sign(
+      {
+        username: foundUser.username,
+      },
+      process.env.REFRESH_TOKEN_SECRET,
+      { expiresIn: "1d" }
+    );
+
+    const otherUsers = userDB.users.filter(
+      (person) => person.username !== foundUser.username
+    );
+
+    const currentUser = { ...foundUser, refreshToken };
+
+    userDB.setUsers([...otherUsers, currentUser]);
+
+    await promises.writeFile(
+      path.join(__dirname, "..", "model", "users.json"),
+      JSON.stringify(userDB.users)
+    );
+
+    res.cookie("jwt", refreshToken, {
+      httpOnly: true,
+      maxAge: 24 * 60 * 60 * 1000,
+    });
+    res.json({
+      accessToken,
     });
   } else {
     res.sendStatus(401);
