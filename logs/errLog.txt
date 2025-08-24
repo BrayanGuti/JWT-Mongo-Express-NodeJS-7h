@@ -1,0 +1,65 @@
+20250823	20:21:14	d364c54b-00c0-4f17-9c0e-6e2269a87148	Error: Not allowed by CORS
+20250823	20:21:14	33107baf-629a-45f0-8313-162dcfea0e68	Error: Not allowed by CORS
+20250823	20:21:14	77937b13-0523-44ce-bb52-b5431da921e4	Error: Not allowed by CORS
+20250823	20:21:23	bc021309-219d-499c-966a-5c77d98765e1	Error: Not allowed by CORS
+20250823	20:21:23	bf1540b9-bb9e-4450-ac09-f48bab7d2d38	Error: Not allowed by CORS
+20250823	20:25:19	7c704b1a-d5ab-4a32-bd88-f966e8638c60	Error: Not allowed by CORS
+20250823	20:25:26	53c16384-ead7-437a-ad03-a50bf5dd391a	Error: Not allowed by CORS
+20250823	20:25:29	a19d719d-8a8f-4255-b643-4b3f5109afa0	Error: Not allowed by CORS
+20250823	21:13:23	13bde403-ec2c-4e40-a8bb-33b8a09f365f	Error: Not allowed by CORS
+20250823	21:13:30	eebb9d90-0c5f-4f0d-859a-bb34bc549837	Error: Not allowed by CORS
+20250823	21:13:31	4e3e12e7-9561-485c-ab9d-0c79802e2453	Error: Not allowed by CORS
+20250823	21:13:31	5908135c-a72a-409f-8b58-ccb06dad022a	Error: Not allowed by CORS
+20250823	21:13:31	b731d3d2-d9bf-4f50-b099-b68e3628c3de	Error: Not allowed by CORS
+20250823	21:14:15	e6bb65cd-910a-4aaa-9dc1-7a55e636feb3	Error: ENOENT: no such file or directory, stat '/home/brayan-gutierrez/Documents/Programing/nodeJS-7hTutorial/nodejs_web_server/views/subidir/index.html'
+20250823	21:22:16	e65c7940-3cd6-4a6f-8746-16d84f6304a3	ReferenceError: req is not defined
+20250823	21:22:29	74f04d6a-2c5d-4746-91ae-4ef6d2e539dd	ReferenceError: req is not defined
+20250823	21:22:30	4906463f-5b71-47cb-80bb-6b2ce4252d57	ReferenceError: req is not defined
+20250823	21:22:30	71566197-f064-4691-9b4c-1bdaa5c8038f	ReferenceError: req is not defined
+20250823	21:22:30	7676f29a-8bb5-4a5e-906a-d30f5915ecf1	ReferenceError: req is not defined
+20250823	22:17:04	fbf95b04-9ad2-42fd-b1e0-50c6b3edcdfc	Error: Can't set headers after they are sent.
+20250823	22:23:18	aa552db3-3b14-49fb-b116-d2baf09b57b7	Error: ENOENT: no such file or directory, stat '/home/brayan-gutierrez/Documents/Programing/nodeJS-7hTutorial/nodejs_web_server/const/views/404.html'
+20250823	22:23:21	b8ca5364-087a-484c-b844-16123d78e0a3	Error: ENOENT: no such file or directory, stat '/home/brayan-gutierrez/Documents/Programing/nodeJS-7hTutorial/nodejs_web_server/const/views/404.html'
+20250823	22:23:22	e17aa6b3-fd43-4cbf-9164-516fae36f4e2	Error: ENOENT: no such file or directory, stat '/home/brayan-gutierrez/Documents/Programing/nodeJS-7hTutorial/nodejs_web_server/const/views/404.html'
+20250823	22:23:33	908952d2-19dc-4b76-9d4c-8b66e05b63b1	Error: ENOENT: no such file or directory, stat '/home/brayan-gutierrez/Documents/Programing/nodeJS-7hTutorial/nodejs_web_server/const/views/404.html'
+20250823	22:23:33	2b99f5eb-e915-4844-bf8b-0fb4efd12522	Error: ENOENT: no such file or directory, stat '/home/brayan-gutierrez/Documents/Programing/nodeJS-7hTutorial/nodejs_web_server/const/views/404.html'
+20250823	22:57:35	9ec3d40a-22d2-4ff7-bb6c-785f75a6e8a3	ReferenceError: id is not defined
+20250823	23:11:19	3034ef8f-5a37-401d-a8e0-7594fce2a62d	Error: ENOENT: no such file or directory, open '../../model/employees.json'
+20250823	23:24:32	ef76abaa-5a17-4558-9cbb-46b6a61e9b06	SyntaxError: Expected ',' or '}' after property value in JSON at position 18 (line 3 column 5)
+20250823	23:25:11	667d8e01-a3e6-497e-b5d0-e3d296969890	SyntaxError: Expected double-quoted property name in JSON at position 16 (line 4 column 1)
+20250823	23:25:21	f6ce9934-e3c2-4fb4-abaa-a0aeeeed8425	SyntaxError: Expected double-quoted property name in JSON at position 16 (line 4 column 1)
+20250823	23:25:23	bf9d5c8c-a931-432d-9222-e97e66aac821	SyntaxError: Expected double-quoted property name in JSON at position 16 (line 4 column 1)
+20250823	23:25:23	eeba6d10-be3d-48b8-88de-1c0520acf3d8	SyntaxError: Expected double-quoted property name in JSON at position 16 (line 4 column 1)
+20250823	23:25:23	a7d74df3-83e0-4ce1-baaa-ccd5a62c463e	SyntaxError: Expected double-quoted property name in JSON at position 16 (line 4 column 1)
+20250823	23:25:23	c993e089-a002-457c-af31-9f135df7f676	SyntaxError: Expected double-quoted property name in JSON at position 16 (line 4 column 1)
+20250823	23:25:24	cf0885a8-e8d5-492a-b1d7-8964e74998ec	SyntaxError: Expected double-quoted property name in JSON at position 16 (line 4 column 1)
+20250823	23:25:24	d41decd6-ba8b-4379-abde-1cc51cb1ab97	SyntaxError: Expected double-quoted property name in JSON at position 16 (line 4 column 1)
+20250823	23:25:24	d3388f3e-3155-4d14-850c-7aa735c855d5	SyntaxError: Expected double-quoted property name in JSON at position 16 (line 4 column 1)
+20250823	23:26:04	5887ad53-5eee-438d-a65b-25f871e7ef4e	SyntaxError: Expected double-quoted property name in JSON at position 15 (line 3 column 1)
+20250823	23:26:35	baa7aebd-c4b1-4422-aed7-0e166385b557	TypeError: Assignment to constant variable.
+20250823	23:26:48	23bc886c-8d9e-4a4c-9628-1a7e0ca46fd9	TypeError: Assignment to constant variable.
+20250823	23:26:54	dd54858b-970f-4c2c-b831-bfe3b58baf0d	SyntaxError: Expected property name or '}' in JSON at position 6 (line 2 column 5)
+20250823	23:27:02	a4ae0c3f-2e80-460a-a68e-ed7c3d446fa3	TypeError: Assignment to constant variable.
+20250823	23:27:03	191537a7-8fea-4f51-9538-7d09dcf8a9ef	TypeError: Assignment to constant variable.
+20250823	23:27:03	7c081807-bd00-4865-b94d-c6950fdc8b72	TypeError: Assignment to constant variable.
+20250823	23:27:03	5b00191a-b0e7-4490-9033-b4c1f43ab52a	TypeError: Assignment to constant variable.
+20250823	23:27:03	cc76b879-c7d2-4e66-bd2a-db9126e6fecc	TypeError: Assignment to constant variable.
+20250823	23:27:42	5b13e826-1e2f-477a-ac5a-8e1406781c9f	TypeError: Assignment to constant variable.
+20250823	23:27:43	dd2a7ac2-216a-4ba8-8b58-3cb525d40a6c	TypeError: Assignment to constant variable.
+20250823	23:27:44	d408ba4e-8f99-44ef-85e7-1550a7fef850	TypeError: Assignment to constant variable.
+20250823	23:27:49	11896dea-26b9-45d4-a9df-7e835e976ae1	SyntaxError: Expected double-quoted property name in JSON at position 17 (line 3 column 1)
+20250823	23:27:49	dfd04551-25bf-4c55-8a99-611354e7843b	SyntaxError: Expected double-quoted property name in JSON at position 17 (line 3 column 1)
+20250823	23:28:11	63bcbd45-1e4c-4428-8d79-14d4536135ac	SyntaxError: Expected double-quoted property name in JSON at position 17 (line 3 column 1)
+20250823	23:29:08	590d25e0-9c8c-4d49-8b24-86a29375b1fc	SyntaxError: Expected double-quoted property name in JSON at position 17 (line 3 column 1)
+20250823	23:29:42	8daab086-d9e4-499e-ae4a-6b1e750f0cca	TypeError: Assignment to constant variable.
+20250823	23:29:43	aa558fc2-e23f-42a9-991a-240e21f22980	TypeError: Assignment to constant variable.
+20250823	23:29:43	4a0e1d8f-4e3e-4def-a049-a6b5cfe1f042	TypeError: Assignment to constant variable.
+20250823	23:29:43	dcdc3a5f-3cfb-4e1a-954b-036e34b08681	TypeError: Assignment to constant variable.
+20250823	23:29:43	91aa4fa0-36fa-414e-a64e-667dd185e3bf	TypeError: Assignment to constant variable.
+20250823	23:29:43	bc8c2cf7-2c96-4bba-8170-f3bfb8bff323	TypeError: Assignment to constant variable.
+20250823	23:30:22	8eae7bef-dfa6-4f4f-8ecd-e9663a3dc63e	TypeError: Assignment to constant variable.
+20250823	23:30:30	af02c6ee-903d-422a-bf9b-e69fc9ebc593	TypeError: Assignment to constant variable.
+20250823	23:30:49	9478f340-04f9-48ff-bcf8-04e3105ba7b6	TypeError: Assignment to constant variable.
+20250824	01:11:10	ccc7ea4b-fa26-45c8-9d10-27233e5945b0	SyntaxError: Expected ',' or '}' after property value in JSON at position 19 (line 3 column 5)
+20250824	01:11:14	ab9a3a93-6739-41c3-a21b-598adcb1f54b	ReferenceError: fs is not defined
+20250824	02:12:41	3040270a-bb3a-4b21-84aa-4b6630c8d8e6	TypeError: bycript.match is not a function
