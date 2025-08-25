@@ -13,6 +13,15 @@ import corsOption from "./config/corsOption.js";
 import cookieParser from "cookie-parser";
 import refreshRouter from "./routes/refresh.js";
 import logoutRouter from "./routes/logout.js";
+import dotenv from "dotenv";
+import connectDB from "./config/dbConn.js";
+import mongoose from "mongoose";
+
+dotenv.config();
+
+// connect mongoDB
+
+connectDB();
 
 const app = express();
 const PORT = process.env.PORT || 3500;
@@ -57,4 +66,7 @@ app.use((req, res) => {
 
 app.use(errorHandler);
 
-app.listen(PORT, () => console.log(`server running in Port ${PORT}`));
+mongoose.connection.once("open", () => {
+  console.log("Connected to mongoDB");
+  app.listen(PORT, () => console.log(`server running in Port ${PORT}`));
+});

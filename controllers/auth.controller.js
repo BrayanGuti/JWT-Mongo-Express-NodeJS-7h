@@ -1,20 +1,6 @@
 import bycript from "bcrypt";
-import usersData from "../model/users.json" with { type: "json" };
 import jwt from "jsonwebtoken";
-import { promises } from "fs";
-import path from "path";
-import dotenv from "dotenv";
-
-const __dirname = path.dirname(new URL(import.meta.url).pathname);
-
-dotenv.config();
-
-const userDB = {
-  users: usersData,
-  setUsers: function (data) {
-    this.users = data;
-  },
-};
+import User from "../model/User.js";
 
 const handleLogin = async (req, res) => {
   const { user, pwd } = req.body;
@@ -24,7 +10,7 @@ const handleLogin = async (req, res) => {
       error: "user and password are required",
     });
 
-  const foundUser = userDB.users.find((person) => person.username === user);
+  const foundUser = await User.findOne({ username: user }).exec();
 
   if (!foundUser)
     return res.status(400).json({

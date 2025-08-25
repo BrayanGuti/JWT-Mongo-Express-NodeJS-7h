@@ -197,3 +197,5 @@
 20250824	17:47:39	e79d98df-4b26-4854-9644-d838f415fee3	POST	undefined	/auth/
 20250824	17:47:45	b62f99f4-c6c9-4852-9ea5-1b219e969c69	POST	undefined	/auth/
 20250824	17:48:06	8aa2e9f8-85c6-4345-9393-134dfdc1d4a7	POST	undefined	/employees/
+20250824	21:35:59	85e7af9a-a66f-4fa5-adba-f746c38b9cd0	POST	undefined	/register/
+20250824	21:36:35	c9285c68-8eb5-4d13-85a1-cd1ea9c2c254	POST	undefined	/register/
